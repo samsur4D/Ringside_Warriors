@@ -5,10 +5,10 @@ import waist from '../assets/waist.jpg'
 const Professional = () => {
     return (
       <>
-  <div className='bg-[#3E2723] overflow-hidden max-w-screen     py-[400px]  flex justify-center   '>
+  <div className='bg-[#3E2723] overflow-hidden max-w-screen     py-72  flex justify-center   '>
       {/* PARENTS */}
     <div className='container mx-auto'>
-    <div className='flex container mx-auto  items-center justify-center '>
+    <section className='flex container mx-auto mt-32  items-center justify-center '>
             {/* part 1 */}
            <div className=''>
                 <div className='bg-black  py-16 w-[1600px]   absolute'>
@@ -24,7 +24,7 @@ const Professional = () => {
                 
            </div>
     
-    </div>
+    </section>
     </div>
 
     {/* ----------------------------- */}

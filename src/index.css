@@ -5,15 +5,28 @@
 @tailwind components;
 @tailwind utilities;
 
-/* *{
+*{
   border: 1px solid red
-}  */
+} 
 
-body {
+/* body {
    background-image:url("https://i.ibb.co/HNG115g/joel-muniz-l-UK16p-Jt-CM-unsplash.webp");
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
    height: auto;
+} */
+
+.benefit{
+  background-image: url('https://i.ibb.co/WtpTX83/hush-naidoo-jade-photography-23h4t-MUz-GZk-unsplash.jpg');
+  background-position: center;
+  height: 5200px;
+  background-size: cover;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  object-fit: cover;
 }
 
