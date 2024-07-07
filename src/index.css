@@ -5,12 +5,15 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+/* *{
   border: 1px solid red
-} 
+}  */
 
-#mainbody{
-   /* background-color: black; */
-   
+body {
+   background-image:url("https://i.ibb.co/HNG115g/joel-muniz-l-UK16p-Jt-CM-unsplash.webp");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
    height: auto;
 }
+

@@ -9,7 +9,7 @@ import Home from "../Pages/Home";
       path: "/",
       element: <Main></Main>,
     //   errorElement: ,
-      Children: [
+      children: [
        {
         index: true,
         element: <Home></Home>
