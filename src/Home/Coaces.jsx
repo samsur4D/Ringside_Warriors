@@ -1,34 +1,27 @@
-import cone from "../assets/c1.jpg";
+import cone from "../assets/cococ.jpeg";
 import ctwo from "../assets/c2.jpg";
 import cthree from "../assets/c3.jpg";
 
 const Coaces = () => {
   return (
-    <div className="py-60">
-      <div className="flex items-center justify-between px-96 py-32">
-        <h1 className="text-white font-samu text-9xl font-semibold">
-          COACHES READY TO SPAR <br /> WITH YOUR
-        </h1>
-        <p className="text-3xl font-semibold text-white">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
-          dolor dicta ipsum maxime <br /> , id amet exercitationem ex ducimus.
-          Dolore deserunt magni ratione recusandae minus nostrum! <br /> Nostrum
-          accusamus iure repre
-        </p>
-      </div>
-      <div className="flex justify-center gap-32">
-        <div>
-          <img className="w-[900px] h-[1020px]" src={cone} alt=""  />
-          
+<div className="py-32">
+  <div className="image-containe  container mx-auto grid grid-cols-3 gap-16 ">
+        <div className="relative ">
+          <img className="hover:translate-y-4 transform transition-transform duration-700 h-[600px] w-full object-cover" src={cone} alt="" />
+          <span className="hover:-translate-y-4 transform transition-transform duration-700 inline-block px-6 py-3 font-bold text-white text-xl bg-red-400 absolute -bottom-10">
+             <p>RYAN REYNORLDS
+             </p>
+             <p>Boxing Coach</p>
+          </span>
         </div>
         <div>
-          <img src={ctwo} alt="" />
+        <img className="h-[600px] w-full object-cover" src={ctwo} alt="" />
         </div>
         <div>
-          <img src={cthree} alt="" />
+        <img className="h-[600px] w-full object-cover" src={cthree} alt="" />
         </div>
-      </div>
-    </div>
+  </div>
+</div>
   );
 };
 

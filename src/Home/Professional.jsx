@@ -4,36 +4,30 @@ import waist from '../assets/waist.jpg'
 
 const Professional = () => {
     return (
-      <>
-  <div className='bg-[#3E2723] overflow-hidden max-w-screen     py-72  flex justify-center   '>
-      {/* PARENTS */}
-    <div className='container mx-auto'>
-    <section className='flex container mx-auto mt-32  items-center justify-center '>
-            {/* part 1 */}
-           <div className=''>
-                <div className='bg-black  py-16 w-[1600px]   absolute'>
-                  <h2 className='text-8xl font-samu font-semibold text-white mt-5 mb-5 ml-5'>PROFESIONAL BOXING <br /> CHAMPIONSHIP</h2>
-                  <p className='text-white text-2xl mt-5 mb-5 ml-5'>dapibus nunc hendrerit taciti, augue gravida lobortis facilisis felis <br /> erat luctus ornare dictumst. Praesent eleifend maecenas tellus morbi <br /> hac lacinia fames odio, potenti duis dapibus diam himenaeos porttitor <br /> ullamcorper, ornare vel mattis porta sociosqu faucibus  ok but thias dapibus nunc hendrerit taciti, augue gravida lobortis facilisis felis <br /> erat luctus ornare dictumst. Praesent eleifend maecenas tellus morbi <br /> hac lacinia fames odio, potenti duis dapibus diam himenaeos porttitor <br /> ullamcorper, ornare vel mattis porta sociosqu faucibus dapibus nunc hendrerit taciti, augue gravida lobortis facilisis felis <br /> erat luctus ornare dictumst. Praesent eleifend maecenas tellus morbi <br /> hac lacinia fames odio, potenti duis dapibus diam himenaeos porttitor <br /> ullamcorper, ornare vel mattis porta sociosqu faucibus 
-                  </p>
-                  <button className='px-10 py-5 bg-orange-900 text-white rounded-md mt-5 mb-5 ml-5'>Learn More</button>
-                </div>
-                <div className=''>
-                  <img className= 'relative z-30 left-[900px] bottom-[150px] w-[600px] ' src={waist} alt="" />
-                  <img className='relative bottom-[1100px] left-96 w-[1200px] ml-[1000px] ' src={two} alt="" />
-                </div>
+      <div className='h-screen w-full pt-56'>
+          <div className='container  w-full mx-auto flex relative'>
+          <img src={two} alt="" className='absolute -top-32 right-0  w-[690px] object-cover'/>
+            <div className='bg-black basis-3/5 flex'>
+              <div className='basis-1/2 text-white p-7'>
+              <h1 className='text-[4rem] leading-[4rem]'>PROFESIONAL BOXING CHAMPIONSHIP</h1>
+              <p className='mt-5 pr-20'>dapibus nunc hendrerit taciti, augue gravida lobortis facilisis felis erat luctus ornare dictumst. Praesent eleifend maecenas tellus morbi hac lacinia fames odio, potenti duis dapibus diam himenaeos porttitor ullamcorper, ornare vel mattis porta sociosqu faucibus</p>
+              <button className='mt-5 px-6 py-2 bg-red-500 font-bold'>Learn More</button>
+            </div>
+              <div className='w-full relative'> 
+                  <img src={waist} alt="" className='absolute bottom-7 right-7 w-[90%] h-[500px] object-cover z-40'/>
+              </div>
+            </div>
+
+            <div className='flex flex-col basis-2/5'>
+                <div className='basis-5/6 relative'>
                 
-           </div>
-    
-    </section>
-    </div>
-
-    {/* ----------------------------- */}
-    {/* <div>
-      <h1 className='text-8xl'>Our Partners</h1>
-    </div> */}
-  </div>
-
-      </>
+                </div>
+                <div className='basis-1/6 pl-8 pb-2 pt-4  text-white'>
+                  <p className='text-[1.2rem] text-justify leading-tight'> magnis netus commodo malesuada enim vehicula cras. Tristique mus augue fermentum habitasse gravida arcu vitae, purus nibh hendrerit vel non per, quisque curae dui bibendum justo</p>
+                </div>
+            </div>
+          </div>
+      </div>
     );
 };
 

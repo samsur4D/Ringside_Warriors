@@ -3,10 +3,11 @@ import Benefit from '../Home/Benefit';
 import Coaces from '../Home/Coaces';
 import Footer from '../Home/Footer';
 import Professional from '../Home/Professional';
+import Upfooter from '../Home/Upfooter';
 
 const Home = () => {
     return (
-        <div className='w-full h-screen'> 
+        <div className='w-full'> 
             <Banner></Banner>
 
             <div className='bg-[#3E2723]'>
@@ -15,8 +16,8 @@ const Home = () => {
             <div className='bg-black'>
              <Coaces></Coaces>
             </div>
-            <Benefit></Benefit>
-         {/* <Footer></Footer> */}
+            {/* <Benefit></Benefit> */}
+            <Upfooter></Upfooter>
         </div>
     );
 };

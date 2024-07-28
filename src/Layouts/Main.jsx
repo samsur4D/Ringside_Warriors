@@ -9,7 +9,7 @@ const Main = () => {
       <div className="flex-1">
         <Outlet></Outlet>
       </div>
-   <Footer></Footer>
+   {/* <Footer></Footer> */}
     </div>
   );
 };

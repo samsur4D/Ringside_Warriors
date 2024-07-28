@@ -5,22 +5,16 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+/* *{
   border: 1px solid red
-} 
+}  */
 
-/* body {
-   background-image:url("https://i.ibb.co/HNG115g/joel-muniz-l-UK16p-Jt-CM-unsplash.webp");
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-   height: auto;
-} */
 
-.benefit{
+
+/* .benefit{
   background-image: url('https://i.ibb.co/WtpTX83/hush-naidoo-jade-photography-23h4t-MUz-GZk-unsplash.jpg');
   background-position: center;
-  height: 5200px;
+  height: 5500px;
   background-size: cover;
   border-radius: 2px;
   display: flex;
@@ -28,5 +22,16 @@
   justify-content: center;
   flex-direction: column;
   object-fit: cover;
+} */
+
+.active::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: red;
+  left: 0;
+  bottom: 0;
+
 }
 
