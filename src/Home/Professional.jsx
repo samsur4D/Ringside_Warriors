@@ -4,7 +4,7 @@ import waist from '../assets/waist.jpg'
 
 const Professional = () => {
     return (
-      <div className='h-screen w-full pt-56'>
+      <div className=' w-full h-full pt-56 pb-56'>
           <div className='container  w-full mx-auto flex relative'>
           <img src={two} alt="" className='absolute -top-32 right-0  w-[690px] object-cover'/>
             <div className='bg-black basis-3/5 flex'>
@@ -26,6 +26,17 @@ const Professional = () => {
                   <p className='text-[1.2rem] text-justify leading-tight'> magnis netus commodo malesuada enim vehicula cras. Tristique mus augue fermentum habitasse gravida arcu vitae, purus nibh hendrerit vel non per, quisque curae dui bibendum justo</p>
                 </div>
             </div>
+          </div>
+          {/* --- */}
+          <div className='container mx-auto mt-32 '>
+             <h1 className='text-6xl text-white font-bold mt-12 mb-8 text-center'>OUR PARTNERS</h1>
+             <div className='flex gap-24 mt-24   items-center text-center'>
+             <img className='w-56 h-10 border-r-2 px-10 transform transition-transform duration-1000 hover:scale-150' src="/public/1-logo-client-light.png" alt="" />
+             <img className='transform transition-transform duration-1000 hover:scale-125 w-56 h-10  border-r-2 px-10' src="/public/10-logo-client-light.png" alt="" />
+             <img className='transform transition-transform duration-1000 hover:scale-125 w-56 h-10  border-r-2 px-10' src="/public/2-logo-client-light.png" alt="" />
+             <img className='transform transition-transform duration-1000 hover:scale-125 w-56 h-10  border-r-2 px-10' src="/public/3-logo-client-light.png" alt="" />
+             <img className='transform transition-transform duration-1000 hover:scale-125 w-56 h-10   px-10' src="/public/5-logo-client-light.png" alt="" />
+             </div>
           </div>
       </div>
     );

@@ -9,7 +9,7 @@ const Banner = () => {
   return (
     <>
       <div className="border-t-2 ">
-        <img className="w-full container mx-auto" src={banner} alt="" />
+        <img className="w-full " src={banner} alt="" />
       </div>
       <div className="flex container mx-auto bg-black  py-20 px-20 ">
         <div className=" mr-4 ml-4 px-5">
