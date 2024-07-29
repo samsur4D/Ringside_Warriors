@@ -22,7 +22,7 @@ const Latest = () => {
               nibh. Quisque velit nisi, pretium ut lacinia in, elementum id
               enim. Proin eget tortor risus.
             </p>
-            <button className="flex justify-start text-xl font-bold text-orange-800">Read More</button>
+            <button className="flex justify-start text-xl font-bold text-[#d34940]">Read More</button>
           </span>
         </div>
         <div className="img-one hover:bg-black transform duration-1000 hover:-translate-y-7 border  h-[640px] flex flex-col items-center gap-10 w-[500px]">
@@ -34,7 +34,7 @@ const Latest = () => {
               nibh. Quisque velit nisi, pretium ut lacinia in, elementum id
               enim. Proin eget tortor risus.
             </p>
-            <button className="flex justify-start text-xl font-bold text-orange-800">Read More</button>
+            <button className="flex justify-start text-xl font-bold text-[#d34940]">Read More</button>
           </span>
         </div>
         <div className="img-one hover:bg-black transform duration-1000 hover:-translate-y-7 border  h-[640px] flex flex-col items-center gap-10 w-[500px]">
@@ -46,7 +46,7 @@ const Latest = () => {
               nibh. Quisque velit nisi, pretium ut lacinia in, elementum id
               enim. Proin eget tortor risus.
             </p>
-            <button className="flex justify-start text-xl font-bold text-orange-800">Read More</button>
+            <button className="flex justify-start text-xl font-bold text-[#d34940]">Read More</button>
           </span>
         </div>
        

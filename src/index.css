@@ -36,3 +36,16 @@
 
 }
 
+.font-outline-2 {
+  -webkit-text-stroke: 2px black;
+}
+.font-outline-4 {
+  -webkit-text-stroke: 4px black;
+}
+
+
+.gallu {
+  background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+  object-position: 20px;
+}
+
