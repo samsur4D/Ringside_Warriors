@@ -1,5 +1,7 @@
 import Banner from '../Home/Banner';
 import Benefit from '../Home/Benefit';
+import BenefitMobile from '../Home/BenefitMobile';
+import BenefitTablet from '../Home/BenefitTablet';
 import Coaces from '../Home/Coaces';
 import Footer from '../Home/Footer';
 import Latest from '../Home/Latest';
@@ -18,10 +20,19 @@ const Home = () => {
             <div className='bg-black'>
              <Coaces></Coaces>
             </div>
-            {/* <Benefit></Benefit> */}
-            {/* <Latest></Latest> */}
-            {/* <Upfooter></Upfooter> */}
-            {/* <Memebrship></Memebrship> */}
+         <div className='hidden md:hidden lg:block'>
+         <Benefit></Benefit>
+         </div>
+           <div className='block md:hidden lg:hidden'>
+           <BenefitMobile></BenefitMobile>
+           </div>
+           <div className='hidden md:block lg:hidden'>
+           <BenefitTablet></BenefitTablet>
+           </div>
+            <Latest></Latest>
+            <Upfooter></Upfooter>
+            <Memebrship></Memebrship>
+        
         </div>
     );
 };

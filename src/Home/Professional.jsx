@@ -6,7 +6,7 @@ const Professional = () => {
   return (
     <div className='w-full h-full pt-20 lg:pt-56 pb-20 lg:pb-56'>
       <div className='container w-full mx-auto flex flex-wrap lg:flex-nowrap md:relative  lg:relative'>
-        <img src={two} alt="" className='hidden md:block lg:block md:absolute md:-bottom-3 md:z-40  lg:-top-32 right-0 w-full md:w-[50%] lg:w-[690px] object-cover'/>
+        <img src={two} alt="" className='md:block lg:block md:absolute md:-bottom-3 md:z-40  lg:-top-32 right-0 w-full md:w-[50%] lg:w-[690px] object-cover'/>
         <div className='bg-black w-full md:basis-3/5 lg:basis-3/5 flex flex-col lg:flex-row'>
           <div className='text-white p-24 lg:p-7  lg:basis-1/2'>
             <h1 className='text-2xl lg:text-[4rem] leading-tight lg:leading-[4rem]'>PROFESSIONAL BOXING CHAMPIONSHIP</h1>
@@ -14,7 +14,7 @@ const Professional = () => {
             <button className='mt-5 px-4 py-2 bg-red-500 font-bold text-sm lg:text-base'>Learn More</button>
           </div>
           <div className='w-full relative md:basis-2/5   mt-5 lg:mt-0'> 
-            <img src={waist} alt="" className='hidden md:block lg:block md:absolute bottom-0 md:bottom-2 lg:bottom-7 right-0 lg:right-7 md:-right-80 md:w-[84%]
+            <img src={waist} alt="" className=' md:block lg:block md:absolute bottom-0 md:bottom-2 lg:bottom-7 right-0 lg:right-7 md:-right-80 md:w-[84%]
              lg:w-[90%] md:h-[450px] lg:h-[500px] object-cover lg:z-40'/>
           </div>
         </div>
@@ -25,9 +25,9 @@ const Professional = () => {
           </div>
           <div className='basis-1/6 pl-4 lg:pl-8 pb-2 pt-4 text-white'>
             <p className='hidden lg:block text-sm lg:text-[1.2rem] text-justify leading-tight'>Magnis netus commodo malesuada enim vehicula cras. Tristique mus augue fermentum habitasse gravida arcu vitae, purus nibh hendrerit vel non per, quisque curae dui bibendum justo.</p>
-           <div className='flex gap-20'>
-           <p className='text-xl lg:text-[1.2rem] text-justify bg-green leading-tight'>Magnis netus commodo malesuada enim <br /> vehicula cras. Tristique mus augue fermentum habitasse gravida arcu vitae, purus nibh hendrerit vel non per, quisque curae dui bibendum justo.</p>
-           <p className='text-xl border lg:text-[1.2rem] text-justify bg-green leading-tight'>Magnis netus commodo malesuada enim <br /> vehicula cras. Tristique mus augue fermentum habitasse gravida arcu vitae, purus nibh hendrerit vel non per, quisque curae dui bibendum justo.</p>
+           <div className=' flex gap-20'>
+           <p className='text-7xl md:text-xl lg:text-[1.2rem] md:text-justify  leading-tight'>Magnis netus commodo malesuada enim  vehicula cras. Tristique mus augue fermentum habitasse gravida arcu vitae, purus nibh hendrerit vel non per, quisque curae dui bibendum justo.</p>
+           <p className='hidden md:block text-xl border lg:text-[1.2rem] text-justify  leading-tight'>Magnis netus commodo malesuada enim  vehicula cras. Tristique mus augue fermentum habitasse gravida arcu vitae, purus nibh hendrerit vel non per, quisque curae dui bibendum justo.</p>
            </div>
           </div>
         </div>

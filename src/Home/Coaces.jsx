@@ -13,7 +13,7 @@ const Coaces = () => {
   {/* ---------------------- */}
   <div className="image-containe pb-24 container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-16 ">
         <div className="relative ">
-          <img className="hover:translate-y-4 transform transition-transform duration-700 h-[600px] w-full object-cover" src={cone} alt="" />
+          <img className="hover:translate-y-4 transform transition-transform duration-700 lg:h-[600px] w-full object-cover" src={cone} alt="" />
           <span className="hover:-translate-y-4 transform transition-transform duration-700 inline-block px-6 py-3 font-bold text-white text-xl bg-[#d34940] absolute -bottom-10">
              <p>RYAN REYNORLDS
              </p>
@@ -21,7 +21,7 @@ const Coaces = () => {
           </span>
         </div>
         <div className="relative ">
-          <img className="hover:translate-y-4 transform transition-transform duration-700 h-[600px] w-full object-cover" src={ctwo} alt="" />
+          <img className="hover:translate-y-4 transform transition-transform duration-700 lg:h-[600px] w-full object-cover" src={ctwo} alt="" />
           <span className="hover:-translate-y-4 transform transition-transform duration-700 inline-block px-6 py-3 font-bold text-white text-xl bg-[#d34940] absolute -bottom-10">
              <p>Byron Diokle
              </p>
@@ -29,7 +29,7 @@ const Coaces = () => {
           </span>
         </div>
         <div className="relative ">
-          <img className="hover:translate-y-4 transform transition-transform duration-700 h-[600px] w-full object-cover" src={cthree} alt="" />
+          <img className="hover:translate-y-4 transform transition-transform duration-700 lg:h-[600px] w-full object-cover" src={cthree} alt="" />
           <span className="hover:-translate-y-4 transform transition-transform duration-700 inline-block px-6 py-3 font-bold text-white text-xl bg-[#d34940] absolute -bottom-10">
              <p>Jhon Rasotgis
              </p>
