@@ -18,10 +18,10 @@ const Home = () => {
             <div className='bg-black'>
              <Coaces></Coaces>
             </div>
-            <Benefit></Benefit>
-            <Latest></Latest>
-            <Upfooter></Upfooter>
-            <Memebrship></Memebrship>
+            {/* <Benefit></Benefit> */}
+            {/* <Latest></Latest> */}
+            {/* <Upfooter></Upfooter> */}
+            {/* <Memebrship></Memebrship> */}
         </div>
     );
 };
