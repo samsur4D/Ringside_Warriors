@@ -10,7 +10,7 @@ const Professional = () => {
         <div className='bg-black w-full md:basis-3/5 lg:basis-3/5 flex flex-col lg:flex-row'>
           <div className='text-white p-24 lg:p-7  lg:basis-1/2'>
             <h1 className='text-2xl lg:text-[4rem] leading-tight lg:leading-[4rem]'>PROFESSIONAL BOXING CHAMPIONSHIP</h1>
-            <p className='mt-5 pr-0 lg:pr-20 text-sm lg:text-base'>Dapibus nunc hendrerit taciti, augue gravida lobortis facilisis felis erat luctus ornare dictumst. Praesent eleifend maecenas tellus morbi hac lacinia fames odio, potenti duis dapibus diam himenaeos porttitor ullamcorper, ornare vel mattis porta sociosqu faucibus.</p>
+            <p className='mt-5 pr-0 lg:pr-20 text-sm lg:text-base'>Step into the ring and witness greatness at the Professional Boxing Championship. Experience electrifying matches, world-class fighters, and unparalleled excitement. Feel the adrenaline, cheer for champions . Don’t miss the action!</p>
             <button className='mt-5 px-4 py-2 bg-red-500 font-bold text-sm lg:text-base'>Learn More</button>
           </div>
           <div className='w-full relative md:basis-2/5   mt-5 lg:mt-0'> 
@@ -24,10 +24,10 @@ const Professional = () => {
             {/* Optional additional content */}
           </div>
           <div className='basis-1/6 pl-4 lg:pl-8 pb-2 pt-4 text-white'>
-            <p className='hidden lg:block text-sm lg:text-[1.2rem] text-justify leading-tight'>Magnis netus commodo malesuada enim vehicula cras. Tristique mus augue fermentum habitasse gravida arcu vitae, purus nibh hendrerit vel non per, quisque curae dui bibendum justo.</p>
-           <div className=' flex gap-20'>
-           <p className='text-7xl md:text-xl lg:text-[1.2rem] md:text-justify  leading-tight'>Magnis netus commodo malesuada enim  vehicula cras. Tristique mus augue fermentum habitasse gravida arcu vitae, purus nibh hendrerit vel non per, quisque curae dui bibendum justo.</p>
-           <p className='hidden md:block text-xl border lg:text-[1.2rem] text-justify  leading-tight'>Magnis netus commodo malesuada enim  vehicula cras. Tristique mus augue fermentum habitasse gravida arcu vitae, purus nibh hendrerit vel non per, quisque curae dui bibendum justo.</p>
+            <p className='hidden lg:block text-sm lg:text-[1.2rem] text-justify leading-tight'>Experience.the thrill of the PROFESSIONAL BOXING CHAMPIONSHIP! Witness top fighters battle for glory and skill. Feel the excitement, embrace the  Don't miss the action—be there!</p>
+           <div className='lg:hidden flex gap-20'>
+           <p className='text-7xl md:text-xl lg:text-[1.2rem] md:text-justify  leading-tight'>Experience.the thrill of the PROFESSIONAL BOXING CHAMPIONSHIP! Witness top fighters battle for glory and skill. Feel the excitement, embrace the  Don't miss the action—be there!</p>
+           <p className='hidden md:block text-xl border lg:text-[1.2rem] text-justify  leading-tight'>Experience.the thrill of the PROFESSIONAL BOXING CHAMPIONSHIP! Witness top fighters battle for glory and skill. Feel the excitement, embrace the  Don't miss the action—be there!</p>
            </div>
           </div>
         </div>

@@ -22,8 +22,7 @@ const Banner = () => {
             </h2>
           </div>
           <p className="text-xl md:text-xl  lg:text-3xl text-white leading-tight">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A sunt eius
-            dolorem dicta. Beatae, ex. Deserunt, dolores. Ipsum, sequi quae?
+          Unleash your inner champion at our Boxing Academy. Train hard, fight smart, and rise to greatness. Join us and transform your strength, discipline, and confidence. Be unstoppable. Start today!
           </p>
         </div>
         <div className="md:border-x-2 lg:border-x-2 md:ml-2 pl-3 md:mr-2 md:mt-5 lg:mr-4 lg:ml-4 lg:px-5">
@@ -31,12 +30,11 @@ const Banner = () => {
             {/* <MdTimer className="text-3xl md:text-4xl lg:text-7xl text-[#d34940]" /> */}
             <h2 className="text-3xl md:text-3xl lg:text-7xl font-semibold font-samu text-[#d34940]">
            
-KICKBOXING Fight
+Kickboxing Fight
             </h2>
           </div>
           <p className="text-xl md:text-xl  lg:text-3xl text-white leading-tight">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A sunt eius
-            dolorem dicta. Beatae, ex. Deserunt, dolores. Ipsum, sequi quae?
+          Join our Kickboxing Academy. Master strikes, build resilience, and fight like a champion. Unleash your power and elevate your skills. Start today! Elevate your skills, boost confidence
           </p>
         </div>
         <div className="block lg:hidden md:hidden md:ml-2 md:mr-2 md:mt-5 lg:mr-4 lg:ml-4 lg:px-5">
@@ -47,20 +45,18 @@ KICKBOXING Fight
             </h2>
           </div>
           <p className="text-xl md:text-xl  lg:text-3xl text-white leading-tight">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A sunt eius
-            dolorem dicta. Beatae, ex. Deserunt, dolores. Ipsum, sequi quae?
+          Join our Yoga Sessions. Find balance, build strength, and achieve inner peace. Transform your body and mind. Embrace serenity and start your journey to wellness today!
           </p>
         </div>
         <div className=" md:ml-2 md:mr-2 md:mt-5 lg:mr-4 lg:ml-4 lg:px-5">
           <div className="flex gap-4 items-center ">
             {/* <GiShardSword className="text-3xl md:text-4xl lg:text-7xl text-[#d34940]" /> */}
             <h2 className="text-3xl md:text-3xl lg:text-7xl font-semibold font-samu text-[#d34940]">
-            PERSONAL TRAINER
+         Personal Trainer
             </h2>
           </div>
           <p className="text-xl md:text-xl  lg:text-3xl text-white leading-tight">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A sunt eius
-            dolorem dicta. Beatae, ex. Deserunt, dolores. Ipsum, sequi quae?
+          Achieve your fitness goals with our Personal Trainer. Get personalized workouts, expert guidance, and start your journey to a stronger, healthier you today!
           </p>
         </div>
       </div>
