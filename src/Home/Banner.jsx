@@ -17,7 +17,7 @@ const Banner = () => {
         <div className="md:ml-2 md:mr-2 md:mt-5 lg:mr-4 lg:ml-4 lg:px-5">
           <div className="flex gap-4">
             {/* <PiBoxingGloveFill className="text-3xl md:text-4xl lg:text-7xl text-[#d34940]" /> */}
-            <h2 className="text-3xl md:text-3xl lg:text-7xl font-semibold font-samu text-[#d34940]">
+            <h2 className="font-boxing text-3xl md:text-3xl lg:text-7xl font-semibold  text-[#d34940]">
               Boxing Academy
             </h2>
           </div>
@@ -28,7 +28,7 @@ const Banner = () => {
         <div className="md:border-x-2 lg:border-x-2 md:ml-2 pl-3 md:mr-2 md:mt-5 lg:mr-4 lg:ml-4 lg:px-5">
           <div className="flex gap-4 container mx-auto">
             {/* <MdTimer className="text-3xl md:text-4xl lg:text-7xl text-[#d34940]" /> */}
-            <h2 className="text-3xl md:text-3xl lg:text-7xl font-semibold font-samu text-[#d34940]">
+            <h2 className="text-3xl md:text-3xl lg:text-7xl font-semibold  font-boxing text-[#d34940]">
            
 Kickboxing Fight
             </h2>
@@ -40,7 +40,7 @@ Kickboxing Fight
         <div className="block lg:hidden md:hidden md:ml-2 md:mr-2 md:mt-5 lg:mr-4 lg:ml-4 lg:px-5">
           <div className="flex gap-4 items-center ">
             {/* <GiShardSword className="text-3xl md:text-4xl lg:text-7xl text-[#d34940]" /> */}
-            <h2 className="text-3xl md:text-3xl lg:text-7xl font-semibold font-samu text-[#d34940]">
+            <h2 className="text-3xl md:text-3xl lg:text-7xl font-semibold  font-boxing text-[#d34940]">
             Yoga Session
             </h2>
           </div>
@@ -51,7 +51,7 @@ Kickboxing Fight
         <div className=" md:ml-2 md:mr-2 md:mt-5 lg:mr-4 lg:ml-4 lg:px-5">
           <div className="flex gap-4 items-center ">
             {/* <GiShardSword className="text-3xl md:text-4xl lg:text-7xl text-[#d34940]" /> */}
-            <h2 className="text-3xl md:text-3xl lg:text-7xl font-semibold font-samu text-[#d34940]">
+            <h2 className="text-3xl md:text-3xl lg:text-7xl font-semibold  font-boxing text-[#d34940]">
          Personal Trainer
             </h2>
           </div>

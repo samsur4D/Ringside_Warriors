@@ -8,7 +8,7 @@ const Latest = () => {
     <div className="bg-[#180e0d] w-full  pt-5 pb-5">
     <section className="container  mx-auto">
     <div className="heading">
-        <h1 className="text-7xl text-white font-bold mb-20">LATEST POST</h1>
+        <h1 className="text-8xl lg:mt-6 font-boxing text-white font-bold mb-20">LATEST POST</h1>
       </div>
       {/* ----------- */}
 

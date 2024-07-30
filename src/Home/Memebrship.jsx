@@ -5,7 +5,7 @@ const Membership = () => {
     <div className='bg-black min-h-screen w-full'>
       <div className='main-div container mx-auto pt-16'>
         <div>
-          <h1 className='text-3xl lg:text-6xl text-white font-bold text-center mb-10 lg:mb-20'>MEMBERSHIPS PRICING PLANS</h1>
+          <h1 className='text-4xl font-boxing lg:text-7xl text-white font-bold text-center mb-10 lg:mb-20'>MEMBERSHIPS PRICING PLANS</h1>
         </div>
       </div>
       {/* -- */}

@@ -7,7 +7,7 @@ const Coaces = () => {
   return (
 <div className="pt-12">
   <div className="container mx-auto flex flex-col lg:flex-row  items-center justify-between mb-12">
-    <h1 className="text-6xl text-white font-bold">COACHES READY TO SPAR WITH YOUR</h1>
+    <h1 className="text-8xl text-white font-boxing font-bold">COACHES READY TO SPAR WITH YOUR</h1>
     <p className="text-white">Unlock your potential with our expert coaches. Personalized guidance, unwavering support—achieve your goals and transform your future today!</p>
   </div>
   {/* ---------------------- */}
