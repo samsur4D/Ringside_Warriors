@@ -24,9 +24,9 @@ const Professional = () => {
             {/* Optional additional content */}
           </div>
           <div className='basis-1/6 pl-4 lg:pl-8 pb-2 pt-4 text-white'>
-            <p className='hidden lg:block text-sm lg:text-[1.2rem] text-justify leading-tight'>Experience.the thrill of the PROFESSIONAL BOXING CHAMPIONSHIP! Witness top fighters battle for glory and skill. Feel the excitement, embrace the  Don't miss the action—be there!</p>
+            <p className='hidden lg:block text-sm lg:text-[1.2rem] text-justify leading-tight'>Experience.the thrill of the PROFESSIONAL BOXING CHAMPIONSHIP! </p>
            <div className='lg:hidden flex gap-20'>
-           <p className='text-7xl md:text-xl lg:text-[1.2rem] md:text-justify  leading-tight'>Experience.the thrill of the PROFESSIONAL BOXING CHAMPIONSHIP! Witness top fighters battle for glory and skill. Feel the excitement, embrace the  Don't miss the action—be there!</p>
+           <p className='text-5xl md:text-xl lg:text-[1.2rem] md:text-justify  leading-tight'>Experience.the thrill of the PROFESSIONAL BOXING CHAMPIONSHIP! Witness top fighters battle for glory and skill. Feel the excitement, embrace the  Don't miss the action—be there!</p>
            <p className='hidden md:block text-xl border lg:text-[1.2rem] text-justify  leading-tight'>Experience.the thrill of the PROFESSIONAL BOXING CHAMPIONSHIP! Witness top fighters battle for glory and skill. Feel the excitement, embrace the  Don't miss the action—be there!</p>
            </div>
           </div>
